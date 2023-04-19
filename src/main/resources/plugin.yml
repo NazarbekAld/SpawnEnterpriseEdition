@@ -1,0 +1,19 @@
+name: SpawnEnterpriseEdition
+version: '${project.version}'
+main: me.nazarxexe.enterprise.SpawnEnterpriseEdition
+api-version: 1.18
+
+
+commands:
+  spawn:
+    description: teleports player to spawn.
+    permission: spawn.teleport
+  setspawn:
+    description: set spawn location.
+    permission: spawn.set
+
+permissions:
+  spawn.set:
+    default: op
+  spawn.teleport:
+    default: op
