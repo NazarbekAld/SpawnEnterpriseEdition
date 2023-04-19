@@ -1,6 +1,6 @@
 package me.nazarxexe.enterprise.impl.strategy;
 
-import me.nazarxexe.enterprise.interfaces.srategy.IConfigGetStrategy;
+import me.nazarxexe.enterprise.interfaces.strategy.IConfigGetStrategy;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.configuration.ConfigurationSection;

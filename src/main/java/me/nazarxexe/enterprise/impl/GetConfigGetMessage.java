@@ -1,12 +1,12 @@
-package me.nazarxexe.enterprise.impl.strategy;
+package me.nazarxexe.enterprise.impl;
 
 import me.nazarxexe.enterprise.interfaces.IConfigGetMessage;
 import org.bukkit.ChatColor;
 import org.bukkit.configuration.ConfigurationSection;
 
-public class GetConfigGetMessageStrategy implements IConfigGetMessage {
+public class GetConfigGetMessage implements IConfigGetMessage {
     private final ConfigurationSection section;
-    public GetConfigGetMessageStrategy(ConfigurationSection section) {
+    public GetConfigGetMessage(ConfigurationSection section) {
         this.section = section;
     }
 

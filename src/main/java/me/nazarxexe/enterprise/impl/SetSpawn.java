@@ -1,7 +1,7 @@
 package me.nazarxexe.enterprise.impl;
 
 import me.nazarxexe.enterprise.interfaces.ISpawn;
-import me.nazarxexe.enterprise.interfaces.srategy.ISetSpawnStrategy;
+import me.nazarxexe.enterprise.interfaces.strategy.ISetSpawnStrategy;
 
 public class SetSpawn implements ISpawn {
 

@@ -1,7 +1,7 @@
 package me.nazarxexe.enterprise.impl.strategy;
 
-import me.nazarxexe.enterprise.interfaces.srategy.IConfigSetStrategy;
-import me.nazarxexe.enterprise.interfaces.srategy.ISetSpawnStrategy;
+import me.nazarxexe.enterprise.interfaces.strategy.IConfigSetStrategy;
+import me.nazarxexe.enterprise.interfaces.strategy.ISetSpawnStrategy;
 
 public class SetSpawnStrategy implements ISetSpawnStrategy {
 

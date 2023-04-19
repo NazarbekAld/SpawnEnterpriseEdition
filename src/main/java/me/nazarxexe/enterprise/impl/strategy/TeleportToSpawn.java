@@ -1,6 +1,6 @@
 package me.nazarxexe.enterprise.impl.strategy;
 
-import me.nazarxexe.enterprise.interfaces.srategy.ITeleportToSpawnStrategy;
+import me.nazarxexe.enterprise.interfaces.strategy.ITeleportToSpawnStrategy;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
 
