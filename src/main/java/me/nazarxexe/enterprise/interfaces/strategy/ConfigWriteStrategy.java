@@ -1,6 +1,6 @@
 package me.nazarxexe.enterprise.interfaces.strategy;
 
-public interface IConfigSetStrategy {
+public interface ConfigWriteStrategy {
 
     void setLocation();
 

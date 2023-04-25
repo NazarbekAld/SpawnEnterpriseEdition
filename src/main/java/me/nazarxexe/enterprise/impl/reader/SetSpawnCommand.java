@@ -1,8 +1,8 @@
-package me.nazarxexe.enterprise.impl.command;
+package me.nazarxexe.enterprise.impl.reader;
 
 import me.nazarxexe.enterprise.impl.factory.SetSpawnFactory;
-import me.nazarxexe.enterprise.interfaces.ISpawn;
-import me.nazarxexe.enterprise.interfaces.IConfigGetMessage;
+import me.nazarxexe.enterprise.interfaces.Spawn;
+import me.nazarxexe.enterprise.interfaces.ConfigReadMessage;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -11,9 +11,9 @@ import org.bukkit.entity.Player;
 public class SetSpawnCommand implements CommandExecutor {
 
     private final SetSpawnFactory factory;
-    private final IConfigGetMessage config;
+    private final ConfigReadMessage config;
 
-    public SetSpawnCommand(SetSpawnFactory factory, IConfigGetMessage config) {
+    public SetSpawnCommand(SetSpawnFactory factory, ConfigReadMessage config) {
         this.factory = factory;
         this.config = config;
     }
@@ -25,8 +25,8 @@ public class SetSpawnCommand implements CommandExecutor {
         Player player = (Player) sender;
 
         factory.setLocation(player.getLocation());
-        ISpawn iSpawn = factory.createSpawn();
-        iSpawn.doSpawn();
+        Spawn spawn = factory.createSpawn();
+        spawn.doSpawn();
         player.sendMessage(config.getMessage("set"));
 
         return true;

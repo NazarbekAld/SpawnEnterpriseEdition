@@ -1,6 +1,6 @@
 package me.nazarxexe.enterprise.interfaces;
 
-public interface IConfigGetMessage {
+public interface ConfigReadMessage {
 
     String getMessage(String key);
 

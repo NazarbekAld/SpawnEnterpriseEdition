@@ -1,6 +1,6 @@
 package me.nazarxexe.enterprise.interfaces.strategy;
 
-public interface ITeleportToSpawnStrategy {
+public interface TeleportStrategy {
 
     void doTeleport();
 

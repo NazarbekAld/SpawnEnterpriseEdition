@@ -1,5 +1,5 @@
 package me.nazarxexe.enterprise.interfaces.strategy;
-public interface ISetSpawnStrategy {
+public interface SpawnWriteStrategy {
 
     void doSet();
 

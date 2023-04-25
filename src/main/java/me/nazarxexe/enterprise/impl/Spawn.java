@@ -1,13 +1,12 @@
 package me.nazarxexe.enterprise.impl;
 
-import me.nazarxexe.enterprise.impl.strategy.TeleportToSpawn;
-import me.nazarxexe.enterprise.interfaces.ISpawn;
+import me.nazarxexe.enterprise.impl.strategy.Teleport;
 
-public class Spawn implements ISpawn {
+public class Spawn implements me.nazarxexe.enterprise.interfaces.Spawn {
 
-    private final TeleportToSpawn strategy;
+    private final Teleport strategy;
 
-    public Spawn(TeleportToSpawn strategy) {
+    public Spawn(Teleport strategy) {
         this.strategy = strategy;
     }
 

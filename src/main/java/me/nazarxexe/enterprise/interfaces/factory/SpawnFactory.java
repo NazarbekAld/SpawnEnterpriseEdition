@@ -1,14 +1,14 @@
 package me.nazarxexe.enterprise.interfaces.factory;
 
-import me.nazarxexe.enterprise.interfaces.ISpawn;
+import me.nazarxexe.enterprise.interfaces.Spawn;
 
-public interface ISpawnFactory {
+public interface SpawnFactory {
 
     /**
      *
      * Creates the spawn object.
      *
      */
-    ISpawn createSpawn();
+    Spawn createSpawn();
 
 }

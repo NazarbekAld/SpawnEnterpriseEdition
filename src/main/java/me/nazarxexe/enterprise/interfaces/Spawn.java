@@ -1,6 +1,6 @@
 package me.nazarxexe.enterprise.interfaces;
 
-public interface ISpawn {
+public interface Spawn {
 
     void doSpawn();
 
